@@ -1,0 +1,3 @@
+rootProject.name = 'holiday_plan'
+
+include ':app'
