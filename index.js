@@ -6,12 +6,14 @@ import React from 'react';
 import { AppRegistry, View } from 'react-native';
 import Header from './src/components/header';
 import Login from './src/components/login';
+//import Logout from './src/components/logout';
 
 //create a component
 const App = () => (
     <View>
         <Header headerText={'Holiday Plan!'} />
         <Login loginText={'Login'} />
+        {/* <Logout buttonText={'logout'} /> */}
     </View>
 );
 

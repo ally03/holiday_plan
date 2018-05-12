@@ -1,11 +1,12 @@
 // Import libraries for making a compoents
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import { 
     Text,
     ScrollView,
     TextInput,
     View,
-    Button,
+    //Button,
 } from 'react-native';
 
 
@@ -21,10 +22,10 @@ const Login = (props) => {
             <TextInput placeholder='Username' />
             <TextInput placeholder='Password' />
             <View style={viewStyle} />
-            <Button
-                //onPress={this.props.onLoginPress}
-                title="Submit"
-            />
+            <Button bsStyle='success'>
+                {/* onPress={this.props.onLoginPress} */}
+                Submit
+            </Button>
         </ScrollView> 
     );
 };
